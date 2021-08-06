@@ -1,3 +1,4 @@
+require('dotenv').config()
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -45,4 +46,4 @@ client.on('voiceStateUpdate',(oldS,newS)=>{
 })
 
 
-client.login('ODczMTQxNzk4MDE5Njc4MjM5.YQ0Gqg.17WiXKsD3Eyv_L-xqYf4ratkeY4');
+client.login(process.env.BOT_TOKEN)
