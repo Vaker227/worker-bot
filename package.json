@@ -1,0 +1,23 @@
+{
+  "name": "worker-bot",
+  "version": "1.0.0",
+  "description": "bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaker227/worker-bot.git"
+  },
+  "author": "LinkDo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaker227/worker-bot/issues"
+  },
+  "homepage": "https://github.com/Vaker227/worker-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
